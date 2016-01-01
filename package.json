@@ -1,0 +1,13 @@
+{
+  "name": "dcache",
+  "description": "Use a client with some required functions (getJSON, setJSON, expire) to cache values",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/dcache",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "src/lib.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/dcache.git"
+  }
+}
