@@ -3,7 +3,7 @@
 
 # Example
 ```javascript
-let dcache = require('dcache')(client);
+const dcache = require('dcache')(client);
 dcache(
   'key',
   (callback) => { callback('value'); },
