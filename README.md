@@ -1,7 +1,13 @@
-[![Dependency Status](https://david-dm.org/dnode/dcache.svg)](https://david-dm.org/dnode/dcache)
-[![devDependency Status](https://david-dm.org/dnode/dcache/dev-status.svg)](https://david-dm.org/dnode/dcache#info=devDependencies)
+[![Dependency Status](https://david-dm.org/dnode/dcache/status.svg)](https://david-dm.org/dnode/dcache)
+[![devDependency Status](https://david-dm.org/dnode/dcache/dev-status.svg)](https://david-dm.org/dnode/dcache?type=dev)
 
-# Example
+# Installation
+
+`npm i --save dcache`
+
+
+# Examples
+
 ```javascript
 const dcache = require('dcache')(client);
 dcache(
