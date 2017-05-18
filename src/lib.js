@@ -9,7 +9,7 @@ module.exports = client => (key, fallback, callback, expire) => {
       hit = false;
     }
     if (!hit) {
-      fallback((value) => {
+      fallback(value => {
         callback(value);
         client.setJSON(key, value, () => {
           if (expire) {
